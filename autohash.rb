@@ -1,16 +1,18 @@
 class HashTagsManager
-  FILEPATH ||= "#{ENV['HOME']}/.earthquake/autohash"
+  def filepath
+    "#{ENV['HOME']}/.earthquake/autohash"
+  end
 
   def save(hashtags)
-    File.open FILEPATH, 'w' do |f|
+    File.open filepath, 'w' do |f|
       f.puts hashtags
     end
   end
 
   def get
     hash_str = ""
-    if File.exists? FILEPATH
-      File.open FILEPATH do |f|
+    if File.exists? filepath
+      File.open filepath do |f|
         f.each_line do |l|
           l.chomp!
           hash_str += " ##{l}"
@@ -21,7 +23,7 @@ class HashTagsManager
   end
 
   def reset
-    File.delete FILEPATH if File.exists? FILEPATH
+    File.delete filepath if File.exists? filepath
   end
 end
 
