@@ -6,7 +6,9 @@ Add hash tags tail of your tweet automatically.
 
 ## Installation
 
-Write later.
+```
+:plugin_install https://gist.github.com/kaosf/6217906
+```
 
 ## Usage
 
