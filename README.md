@@ -22,7 +22,7 @@ Set hash tags.
 ⚡ :autohash tag1 tag2
 ```
 
-Then, ` #tag1 #tag2` is added.
+Then, ` #tag1 #tag2` is added the tail of your tweets automatically.
 
 Reset hash tags.
 
