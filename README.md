@@ -23,3 +23,7 @@ Reset hash tags.
 ```
 :autohash
 ```
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
