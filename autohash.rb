@@ -25,18 +25,20 @@ class HashTagsManager
   end
 end
 
-Earthquake.init do
-  h = HashTagsManager.new
+if Object.const_defined? :Earthquake
+  Earthquake.init do
+    h = HashTagsManager.new
 
-  command :autohash do
-    h.reset
-  end
+    command :autohash do
+      h.reset
+    end
 
-  command :autohash do |m|
-    h.save m[1].split("\s")
-  end
+    command :autohash do |m|
+      h.save m[1].split("\s")
+    end
 
-  command %r|^[^:\$].*| do |m|
-    input(":update #{m[0]}#{h.get}")
+    command %r|^[^:\$].*| do |m|
+      input(":update #{m[0]}#{h.get}")
+    end
   end
 end
