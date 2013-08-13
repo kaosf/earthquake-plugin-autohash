@@ -19,7 +19,7 @@ Install it with the following command.
 Set hash tags.
 
 ```
-:autohash tag1 tag2
+⚡ :autohash tag1 tag2
 ```
 
 Then, ` #tag1 #tag2` is added.
@@ -27,7 +27,7 @@ Then, ` #tag1 #tag2` is added.
 Reset hash tags.
 
 ```
-:autohash
+⚡ :autohash
 ```
 
 ## License
