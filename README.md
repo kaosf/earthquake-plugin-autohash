@@ -1,4 +1,4 @@
-# autohash
+# autohash [![Build Status](https://travis-ci.org/kaosf/earthquake-plugin-autohash.png?branch=master)](https://travis-ci.org/kaosf/earthquake-plugin-autohash)
 
 This is a plugin for [Earthquake](https://github.com/jugyo/earthquake).
 
