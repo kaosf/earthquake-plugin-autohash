@@ -2,13 +2,13 @@
 
 This is a plugin for [Earthquake](https://github.com/jugyo/earthquake).
 
-Add hash tags tail of your tweet automatically.
+Add hash tags to the tail of your tweets automatically.
 
 ## Installation
 
 Plugin code is [here (https://gist.github.com/kaosf/6217906)](https://gist.github.com/kaosf/6217906).
 
-Install it with the following command.
+Run the following command on earthquake.
 
 ```
 ⚡ :plugin_install https://gist.github.com/kaosf/6217906
@@ -22,7 +22,7 @@ Set hash tags.
 ⚡ :autohash tag1 tag2
 ```
 
-Then, ` #tag1 #tag2` is added the tail of your tweets automatically.
+Then, ` #tag1 #tag2` is added to the tail of your tweets automatically.
 
 Reset hash tags.
 
@@ -33,3 +33,5 @@ Reset hash tags.
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
+
+Copyright (C) 2013-2014 ka
