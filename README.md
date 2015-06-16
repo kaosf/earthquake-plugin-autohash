@@ -1,4 +1,6 @@
-# autohash [![Build Status](https://travis-ci.org/kaosf/earthquake-plugin-autohash.png?branch=master)](https://travis-ci.org/kaosf/earthquake-plugin-autohash)
+# autohash
+
+[![Build Status](https://travis-ci.org/kaosf/earthquake-plugin-autohash.png?branch=master)](https://travis-ci.org/kaosf/earthquake-plugin-autohash)
 
 This is a plugin for [Earthquake](https://github.com/jugyo/earthquake).
 
@@ -34,4 +36,4 @@ Reset hash tags.
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (C) 2013-2014 ka
+Copyright (C) 2013-2015 ka
