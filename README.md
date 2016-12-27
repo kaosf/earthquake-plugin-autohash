@@ -36,4 +36,4 @@ Reset hash tags.
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (C) 2013-2015 ka
+Copyright (C) 2013-2016 ka
