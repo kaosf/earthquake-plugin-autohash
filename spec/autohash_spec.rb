@@ -6,7 +6,7 @@ describe HashTagsManager do
   let(:h) { HashTagsManager.new }
 
   before :each do
-    h.stub(:filepath).and_return(DUMMY_FILEPATH)
+    allow(h).to receive(:filepath).and_return(DUMMY_FILEPATH)
   end
 
   it 'should get no hash tags defaultly' do
