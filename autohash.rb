@@ -11,7 +11,7 @@ class HashTagsManager
 
   def get
     hash_str = ""
-    if File.exists? filepath
+    if File.exist? filepath
       File.open filepath do |f|
         f.each_line do |l|
           l.chomp!
@@ -23,7 +23,7 @@ class HashTagsManager
   end
 
   def reset
-    File.delete filepath if File.exists? filepath
+    File.delete filepath if File.exist? filepath
   end
 end
 

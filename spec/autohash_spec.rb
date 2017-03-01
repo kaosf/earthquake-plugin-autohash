@@ -25,6 +25,6 @@ describe HashTagsManager do
   end
 
   after :each do
-    File.delete DUMMY_FILEPATH if File.exists? DUMMY_FILEPATH
+    File.delete DUMMY_FILEPATH if File.exist? DUMMY_FILEPATH
   end
 end
