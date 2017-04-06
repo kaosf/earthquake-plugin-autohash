@@ -15,6 +15,7 @@ class HashTagsManager
       File.open filepath do |f|
         f.each_line do |l|
           l.chomp!
+          l.gsub! /^#*/, ''
           hash_str += " ##{l}"
         end
       end

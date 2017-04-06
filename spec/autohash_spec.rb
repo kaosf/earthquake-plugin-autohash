@@ -18,6 +18,17 @@ describe HashTagsManager do
     expect(h.get).to eq(' #a #b #c')
   end
 
+  it 'should strip #' do
+    h.save ['#a']
+    expect(h.get).not_to eq (' ##a')
+    expect(h.get).to eq (' #a')
+  end
+
+  it 'shoudl strip multiple #' do
+    h.save ['###a']
+    expect(h.get).to eq (' #a')
+  end
+
   it 'should reset hashtags' do
     h.save ['a', 'b', 'c']
     h.reset
